@@ -1,0 +1,10 @@
+#include<LPC21XX.H>
+main()
+{
+IODIR0=1;
+while(1){
+delay_ms(100);
+IOSET=1;
+delay_ms(100);
+}
+}
